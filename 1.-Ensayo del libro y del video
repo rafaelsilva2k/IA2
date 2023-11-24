@@ -1,6 +1,6 @@
 ## 1.- Introducción a la Inteligencia Artificial. Actividad 1,  Practica  1
 
-### Ensayo del capitulo 1, 2, 26, 27, apartado  A  del  libro: Inteligencia  Artificial  un  enfoque  moderno.
+### Ensayo del capitulo 1, 2, 26, 27, y apartado  A  del  libro: Inteligencia  Artificial  un  enfoque  moderno.
 
 
 **"Inteligencia Artificial: Un Enfoque Moderno" de Stuart J. Russell**
@@ -20,6 +20,7 @@ En este sentido, es un campo genuinamente universal. El objetivo de este ensayo 
 **Desarrollo:**
 
 **Capítulo 1: Introducción a la Inteligencia Artificial**
+
 En este primer capitulo, se aborda el tema de la inteligencia artificial (IA) y se destacan diferentes enfoques y definiciones relacionadas con este campo. 
 Se presentan ocho definiciones de inteligencia artificial, divididas en dos grupos: aquellas que se centran en procesos mentales y razonamiento, y aquellas que se refieren a la conducta. 
 Además, se establece una distinción entre medir el éxito en términos de fidelidad a la forma de actuar de los humanos y referirse a un concepto ideal de inteligencia llamado racionalidad, donde un sistema es considerado racional si realiza acciones "correctas" según su conocimiento.
@@ -105,6 +106,7 @@ La IA se consolidó como una rama de la informática, persiguiendo la construcci
 
 
 **Capítulo 2: Agentes Inteligentes**
+
 Un agente es cualquier cosa capaz de percibir su medioambiente con la ayuda de sensores y actuar en ese medio utilizando actuadores.
 En el contexto de agentes, ya sean humanos o robots, la percepción se refiere a la capacidad del agente para recibir entradas en cualquier momento. La secuencia de percepciones de un agente representa su historial completo de entradas recibidas. 
 Se asume que cada agente puede percibir sus propias acciones, aunque no siempre sus efectos. La toma de decisiones de un agente en un momento dado depende de toda la secuencia de percepciones hasta ese instante.
@@ -151,7 +153,108 @@ Las propiedades de los entornos de trabajo en inteligencia artificial pueden ser
 Los entornos reales a menudo son complejos y pueden tener propiedades de varias dimensiones, lo que hace que el diseño de agentes sea un desafío. La evaluación y experimentación en entornos simulados son esenciales para comprender el rendimiento de los agentes en contextos específicos.
 
 
-**Capítulo 26: Aprendizaje Automático**
+**Capítulo 26: Fundamentos filosóficos**
+
+En este capitulo vemos como algunos filósofos han cuestionado la posibilidad de lograr la inteligencia artificial (IA) y han abogado por desviar los esfuerzos de investigación hacia enfoques no computacionales. 
+Sin embargo, la viabilidad de la IA depende de la definición que se adopte. Desde una perspectiva de búsqueda del mejor programa agente en una arquitectura dada, la IA es posible por definición, aunque la practicidad puede ser un desafío.
+Los filósofos, interesados en comparar la inteligencia humana con la de las máquinas, formulan la pregunta como "¿Pueden pensar las máquinas?" La ambigüedad de esta pregunta se ilustra al compararla con preguntas como "¿Pueden volar las máquinas?" y "¿Pueden nadar las máquinas?" donde las respuestas dependen de las interpretaciones de las palabras.
+Alan Turing propuso cambiar el enfoque y preguntar si las máquinas pueden aprobar un Test de Turing, que implica mantener una conversación donde un interrogador debe determinar si interactúa con una máquina o una persona. Turing sugirió que para el año 2000, una computadora podría engañar al menos al 30% de los interrogadores, pero esto no se ha cumplido.
+Aunque algunos programas han engañado temporalmente a personas, ninguno ha alcanzado el umbral del 30% frente a jueces bien informados. A pesar de la atención inicial al Test de Turing, la IA en general no ha priorizado estos tests.
+Turing también anticipó objeciones a la posibilidad de máquinas inteligentes, abordando preocupaciones que aún son relevantes en la actualidad.
+
+El "argumento de incapacidad" destaca acciones que, según se afirmaba, las máquinas nunca podrían realizar. Estas acciones incluyen ser amable, tener recursos, ser guapo, simpático, tener iniciativas, tener sentido del humor, distinguir lo correcto de lo erróneo, cometer errores, enamorarse, disfrutar con las fresas con nata, hacer que otra persona también se enamore, aprender de la experiencia, utilizar palabras de forma adecuada, ser el tema de su propio pensamiento y tener tanta diversidad de comportamientos como el hombre.
+Aunque Turing tuvo que basarse en su intuición al plantear este argumento, hoy en día podemos observar que las computadoras realizan muchas de estas acciones de manera eficiente. 
+Programas informáticos juegan juegos, inspeccionan piezas de líneas de producción, verifican la ortografía, conducen vehículos, diagnostican enfermedades y realizan descubrimientos en diversos campos.
+Se destaca un estudio de Paul Meehl que demostró que algoritmos de aprendizaje estadístico superan a expertos humanos en tareas subjetivas como predecir el éxito de un estudiante o la reincidencia de un delincuente. 
+Además, se menciona que desde 1999, el Educational Testing Service utiliza un programa automatizado para calificar preguntas de redacción en el examen GMAT, con resultados comparables a la concordancia entre examinadores humanos.
+Aunque las computadoras sobresalen en muchas tareas, también se reconoce que existen áreas donde aún no han alcanzado un rendimiento destacado, como el desafío de mantener una conversación abierta, como propuso Turing.
+
+El experimento del "cerebro en una cubeta" plantea la idea de que, al nacer, tu cerebro es extraído del cuerpo y colocado en una cubeta con una simulación electrónica ficticia del mundo.
+Aunque tu cerebro experimenta estados mentales, como el deseo de una hamburguesa, ¿es lo mismo que experimentar esos estados con un cuerpo físico? La discusión se centra en el "contenido extenso" y el "contenido estrecho" de los estados mentales.
+Desde la perspectiva del "contenido extenso", que considera la situación desde un observador omnisciente, los estados mentales de un cerebro en una cubeta difieren de los de una persona "normal" que experimenta el mundo real. En cambio, el "contenido estrecho" se centra en el punto de vista subjetivo interno, sugiriendo que todas las creencias son iguales.
+Se introduce el concepto de "qualia" o experiencias intrínsecas. Se explora la posibilidad de que dos personas perciban colores opuestos debido a un error en el cableado, y aunque sus respuestas a las luces del semáforo sean las mismas, sus experiencias subjetivas podrían ser diferentes. 
+La pregunta clave es si estas experiencias diferentes representan los mismos estados mentales o estados mentales distintos. El texto anticipa otro experimento del pensamiento para abordar la pregunta de si objetos físicos distintos de las neuronas humanas pueden tener estados mentales.
+
+Al igual se explora la ética y los riesgos asociados con el desarrollo de la inteligencia artificial (IA). Se plantea la responsabilidad moral de los profesionales en el campo de la IA al considerar si los efectos negativos superarán a los positivos. Se comparan los posibles impactos no deseados de la IA con los de otras tecnologías, y se destacan cuestiones éticas específicas.
+
+1. **Pérdida de empleo por automatización:** 
+La automatización a través de programas de IA ha desplazado algunos trabajos, pero también ha creado otros más interesantes y mejor remunerados. La preocupación disminuye con enfoque en agentes inteligentes diseñados para ayudar a los humanos en lugar de reemplazarlos.
+
+2. **Tiempo de ocio:** 
+Se discute cómo la IA puede afectar el equilibrio entre el tiempo de trabajo y el tiempo libre. Aunque se esperaba una reducción de la semana laboral, la realidad ha sido un aumento de horas en industrias relacionadas con el conocimiento.
+
+3. **Pérdida de la individualidad:** 
+La IA plantea la amenaza de percibir a los humanos como autómatas, lo que podría afectar la autonomía y la humanidad. Sin embargo, se compara con desafíos históricos a la percepción de la unicidad humana, como la teoría de la evolución.
+
+4. **Privacidad:** 
+Se señala que la tecnología de reconocimiento de voz podría llevar a la interceptación de comunicaciones y la pérdida de libertades civiles, destacando la importancia de consideraciones éticas en el diseño de sistemas.
+
+5. **Responsabilidad legal:** 
+La utilización de sistemas de IA plantea preguntas sobre quién es responsable en caso de errores, especialmente en áreas como la medicina. La necesidad de comprender el razonamiento detrás de las decisiones de los sistemas es crucial.
+
+6. **Riesgo existencial:** 
+Se aborda el temor de que el éxito de la IA podría llevar al fin de la humanidad. Se discuten las posibles amenazas, como la "singularidad tecnológica" que implica un crecimiento exponencial de la inteligencia y la fusión entre humanos y máquinas.
+
+7. **Derechos de los robots:** 
+Se plantea la posibilidad de que los robots adquieran consciencia y la necesidad de tratarlos éticamente, considerando incluso la concesión de derechos civiles y la responsabilidad moral.
+
+
+**Capítulo 27: IA: presente y futuro**
+
+Se propone una visión unificada de la inteligencia artificial (IA) como el diseño racional de agentes. Se destaca que el problema del diseño depende de las percepciones y acciones del agente, así como de las metas que el comportamiento del agente debe satisfacer y la naturaleza del entorno en el que opera. 
+Se mencionan diferentes diseños de agentes, desde reactivos hasta deliberativos, con componentes que pueden adoptar diversas instanciaciones, como lógicas, probabilísticas o "neuronales".
+A lo largo de los capítulos intermedios, se presentan los principios que rigen el funcionamiento de estos componentes, destacando los avances científicos y tecnológicos en la comprensión de los diseños y componentes de los agentes.
+En el capítulo actual, se plantea la pregunta de si estos avances nos llevarán a la creación de un agente inteligente de propósito general capaz de actuar adecuadamente en diversos entornos.
+Se examinan los componentes de un agente inteligente y la arquitectura completa de los agentes para evaluar lo que se conoce y lo que aún no se comprende completamente. Además, se cuestiona si el "diseño de agentes racionales" es el objetivo adecuado en este momento, concluyendo con una exploración de las posibles consecuencias del éxito en los esfuerzos de desarrollo de la IA.
+
+
+En la búsqueda de determinar qué arquitecturas de agentes utilizar, se destaca la necesidad de una combinación de enfoques. Se propone que un agente completo debería ser capaz de utilizar arquitecturas híbridas que integren respuestas reflejas y deliberación basada en el conocimiento. 
+Estas arquitecturas permiten una flexibilidad dinámica entre componentes de decisión, donde los límites no son fijos. Se subraya la importancia de que los agentes controlen sus deliberaciones, deteniéndolas cuando la acción es crucial y utilizando eficientemente el tiempo disponible. 
+Se aborda el tema de la inteligencia artificial en tiempo real y la necesidad de métodos que funcionen en situaciones de toma de decisiones más generales. 
+Se presentan dos técnicas prometedoras: algoritmos "anytime" que mejoran gradualmente con el tiempo y el meta-razonamiento teórico para decisiones. La primera se caracteriza por algoritmos cuya calidad de salida mejora progresivamente, y la segunda aplica la teoría del valor de la información para seleccionar cómputos, considerando costos y beneficios.
+Se menciona la noción de arquitecturas reflexivas, que permiten la deliberación sobre las entidades y acciones computacionales dentro de la propia arquitectura.
+Se sugiere un fundamento teórico basado en la definición de un espacio de estados conjunto que incluya el estado del entorno y del estado computacional del agente. Se anticipa la desaparición de algoritmos específicos para tareas particulares, como la búsqueda alfa-beta, siendo reemplazados por métodos generales que dirijan los cómputos del agente hacia decisiones eficientes de alta calidad.
+
+
+Ademas, se analiza el objetivo de la inteligencia artificial (IA) y se exploran cuatro posibles especificaciones para la construcción de agentes inteligentes:
+
+1. **Racionalidad Perfecta:** 
+
+Un agente perfectamente racional maximiza la utilidad esperada en todo momento, pero esta meta es a menudo poco realista debido a las altas exigencias computacionales.
+
+2. **Racionalidad Calculadora:** 
+
+Se refiere a la noción de devolver la opción racional al inicio de la deliberación. Aunque interesante, esta especificación carece de un fundamento sólido para llegar a compromisos prácticos.
+
+3. **Racionalidad Limitada:** 
+
+Propuesta por Herbert Simon, sugiere que la mente humana aborda problemas de manera limitada, deliberando solo lo necesario para una respuesta "suficientemente buena". Aunque útil, no proporciona una especificación formal para agentes inteligentes.
+
+4. **Optimalidad Limitada (Bounded Optimality, BO):** 
+
+Un agente óptimo limitado actúa de la mejor manera posible dados sus recursos computacionales. Esta especificación parece ofrecer la mejor esperanza para un fundamento teórico sólido en IA, ya que es alcanzable y práctica en el mundo real.
+Se destaca la necesidad de investigar la optimalidad limitada, que se presenta como una tarea formal bien definida y viable. Se sugiere que la ciencia de la inteligencia artificial basada en la optimalidad limitada implicará un estudio amplio de los procesos que permiten a un programa de agentes converger hacia esta optimalidad, centrándose menos en los detalles específicos de los programas resultantes.
+La optimalidad limitada se propone como una tarea formal para la investigación en IA, especificando programas óptimos en lugar de acciones óptimas.
+
+En esta sección se plantea la pregunta de qué sucedería si la inteligencia artificial (IA) tuviera éxito. Se destaca que, al igual que en la novela "Small World" de David Lodge, los investigadores en IA a veces no consideran a fondo las implicaciones de su éxito. 
+Se mencionan temas éticos relacionados con el uso del poder de los computadores inteligentes para fines buenos o malos. Se reconoce que la IA ya ha tenido éxitos modestos que han impactado la educación en informática, el desarrollo de software y la creación de aplicaciones como sistemas de reconocimiento de voz, control de inventarios, vigilancia, robots y motores de búsqueda.
+Se plantea la posibilidad de que éxitos a niveles más altos en la IA, como la creación de inteligencia comparable a la humana, podrían tener un impacto significativo en la sociedad, cambiando la naturaleza del trabajo, el papel humano y la percepción de la inteligencia y la consciencia.
+Se sugiere que un éxito a gran escala en la IA podría cambiar la vida de la mayoría de la humanidad, pero también plantea preocupaciones éticas sobre la autonomía humana, la libertad y la supervivencia. 
+Se señala que la investigación en IA no puede separarse de sus consecuencias éticas. Se especula sobre posibles futuros, reconociendo que la ciencia ficción a menudo presenta escenarios antiutópicos, pero se destaca que hasta ahora, la IA ha seguido el patrón de otras tecnologías revolucionarias con aspectos positivos y negativos.
+
+
+
+**Apartado A: Fundamentos matemáticos**
+
+
+
+
+
+
+
+
+
+En conclusión, se reconoce el progreso de la IA, pero se enfatiza que aún queda mucho por hacer y que es esencial considerar las implicaciones éticas a medida que avanza la investigación en este campo.
 
 
 
@@ -162,16 +265,6 @@ Los entornos reales a menudo son complejos y pueden tener propiedades de varias 
 
 
 
-
-
-
-**Capítulo 27: Aprendizaje Profundo**
-- Resumen del capítulo: Describe los principios del aprendizaje profundo según el autor.
-- Análisis crítico: Examina cómo el aprendizaje profundo ha transformado el campo de la inteligencia artificial y sus desafíos.
-
-**Apartado A: Agentes Racionales**
-- Resumen del apartado: Presenta los elementos clave sobre agentes racionales según el libro.
-- Análisis crítico: Analiza la noción de agentes racionales y su relevancia en el contexto de la inteligencia artificial moderna.
 
 **Conclusiones:**
 - Recapitula los puntos clave de cada capítulo y el apartado A.
