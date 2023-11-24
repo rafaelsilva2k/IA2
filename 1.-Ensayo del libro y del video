@@ -16,18 +16,26 @@ La IA sintetiza y automatiza tareas intelectuales y es, por lo tanto, potencialm
 En este sentido, es un campo genuinamente universal. El objetivo de este ensayo es analizar y evaluar los conceptos clave presentados en dichos capítulos de este extenso libro sobre la IA.
 
 **Desarrollo:**
-
 **Capítulo 1: Introducción a la Inteligencia Artificial**
-En el texto proporcionado, se aborda el tema de la inteligencia artificial (IA) y se destacan diferentes enfoques y definiciones relacionadas con este campo. 
+En este primer capitulo, se aborda el tema de la inteligencia artificial (IA) y se destacan diferentes enfoques y definiciones relacionadas con este campo. 
 Se presentan ocho definiciones de inteligencia artificial, divididas en dos grupos: aquellas que se centran en procesos mentales y razonamiento, y aquellas que se refieren a la conducta. 
 Además, se establece una distinción entre medir el éxito en términos de fidelidad a la forma de actuar de los humanos y referirse a un concepto ideal de inteligencia llamado racionalidad, donde un sistema es considerado racional si realiza acciones "correctas" según su conocimiento.
 
-Se menciona que a lo largo de la historia se han seguido cuatro enfoques en inteligencia artificial: sistemas que piensan como humanos, sistemas que piensan racionalmente, sistemas que actúan como humanos y sistemas que actúan racionalmente. Existe un enfrentamiento entre los enfoques centrados en los humanos y aquellos centrados en la racionalidad. El enfoque centrado en el comportamiento humano se considera una ciencia empírica, mientras que el enfoque racional implica una combinación de matemáticas e ingeniería. Ambos enfoques han interactuado, a veces ayudándose mutuamente y otras veces ignorándose.
+Se menciona que a lo largo de la historia se han seguido cuatro enfoques en inteligencia artificial: sistemas que piensan como humanos, sistemas que piensan racionalmente, sistemas que actúan como humanos y sistemas que actúan racionalmente. 
+Existe un enfrentamiento entre los enfoques centrados en los humanos y aquellos centrados en la racionalidad. El enfoque centrado en el comportamiento humano se considera una ciencia empírica, mientras que el enfoque racional implica una combinación de matemáticas e ingeniería.
+Ambos enfoques han interactuado, a veces ayudándose mutuamente y otras veces ignorándose.
+Se proporcionan ejemplos de definiciones de inteligencia artificial de diferentes autores y se destaca la diversidad de perspectivas en el campo, desde la automatización de actividades vinculadas con procesos de pensamiento humano hasta el estudio de las facultades mentales mediante el uso de modelos computacionales. 
 
-Se proporcionan ejemplos de definiciones de inteligencia artificial de diferentes autores y se destaca la diversidad de perspectivas en el campo, desde la automatización de actividades vinculadas con procesos de pensamiento humano hasta el estudio de las facultades mentales mediante el uso de modelos computacionales. El texto anticipa una revisión más detallada de cada uno de los cuatro enfoques mencionados.
 
-- Resumen del capítulo: Describe los conceptos fundamentales presentados por Russell en el primer capítulo.
-- Análisis crítico: Evalúa la efectividad de la introducción del autor para comprender la IA desde un enfoque moderno.
+
+
+
+
+
+
+
+
+
 
 **Capítulo 2: Solucionando Problemas mediante la Búsqueda**
 - Resumen del capítulo: Explica las estrategias de búsqueda introducidas por Russell.
