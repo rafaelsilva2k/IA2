@@ -246,9 +246,12 @@ Se señala que la investigación en IA no puede separarse de sus consecuencias �
 
 **Apartado A: Fundamentos matemáticos**
 
-
-
-
+Los científicos informáticos se enfrentan a la tarea de comparar algoritmos para evaluar su rapidez de ejecución y el consumo de memoria. Dos enfoques comunes son las pruebas de evaluación y las pruebas analíticas. 
+Las pruebas de evaluación consisten en ejecutar los algoritmos en un computador específico y medir la velocidad y la memoria utilizada. Aunque son precisas, pueden ser demasiado específicas y no generalizarse bien a otros contextos.
+El análisis asintótico es un enfoque para evaluar algoritmos independientemente de la implementación y la entrada específica. Utiliza la notación O( ) para abstraer factores constantes y se centra en la complejidad del algoritmo en función del tamaño de la entrada (parámetro n). 
+El análisis asintótico proporciona una herramienta eficaz para comparar algoritmos y se basa en medidas como el peor caso (Tpeor(n)) o el caso promedio (Tprom(n)). La notación O( ) facilita la comparación de algoritmos sin preocuparse por factores constantes, lo que lo convierte en una herramienta ampliamente utilizada en el análisis de algoritmos.
+El análisis de complejidad se centra en problemas más que en algoritmos, dividiéndolos en dos clases principales: P (problemas que pueden resolverse en tiempo polinómico) y NP (problemas polinomiales no deterministas). La pregunta clave es si P es igual a NP, lo que sigue siendo un problema no resuelto. La clase NP incluye problemas fáciles de verificar, pero no necesariamente fáciles de resolver. 
+NP-completos son los problemas más difíciles de NP, y la pregunta abierta es si todos los problemas NP-completos están en P. Además, se mencionan las clases co-NP (el complemento de NP) y #P (problemas de cómputo correspondientes a problemas de decisión en NP). También se discute la clase PSPACE, que incluye problemas que requieren espacio polinómico y podría ser más difícil que NP-completo. La relación exacta entre estas clases sigue siendo un área activa de investigación.
 
 
 
