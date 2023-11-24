@@ -5,7 +5,9 @@
 
 **"Inteligencia Artificial: Un Enfoque Moderno" de Stuart J. Russell**
 
+
 **Introducción:**
+
 Se hara un ensayo sobre la Inteligencia Artificial un Enfoque Moderno. Libro realizado por Stuart J. Russell.
 La IA es una de las ciencias más recientes. El trabajo comenzó poco después de la Segunda Guerra Mundial, y el nombre se acuñó en 1956. 
 La IA se cita, junto a la biología molecular, como un campo en el que a la mayoría de científicos de otras disciplinas les gustaría trabajar.
@@ -16,6 +18,7 @@ La IA sintetiza y automatiza tareas intelectuales y es, por lo tanto, potencialm
 En este sentido, es un campo genuinamente universal. El objetivo de este ensayo es analizar y evaluar los conceptos clave presentados en dichos capítulos de este extenso libro sobre la IA.
 
 **Desarrollo:**
+
 **Capítulo 1: Introducción a la Inteligencia Artificial**
 En este primer capitulo, se aborda el tema de la inteligencia artificial (IA) y se destacan diferentes enfoques y definiciones relacionadas con este campo. 
 Se presentan ocho definiciones de inteligencia artificial, divididas en dos grupos: aquellas que se centran en procesos mentales y razonamiento, y aquellas que se refieren a la conducta. 
@@ -60,6 +63,7 @@ Es importante abordar el papel de las matemáticas en el desarrollo de la inteli
    - Gerolamo Cardano (1501-1576) introduce la probabilidad en el contexto de juegos de apuesta.
    - La probabilidad se convierte en una herramienta esencial en ciencias cuantitativas, tratando mediciones con incertidumbre.
    - Thomas Bayes (1702-1761) propone la regla de Bayes para actualizar probabilidades subjetivas a la luz de nuevas evidencias, sentando las bases para el análisis bayesiano en la IA moderna.
+
 Es de suma importancia destacar cómo los límites y desafíos planteados en la lógica y la teoría de la computación han influido en la formulación de problemas y enfoques en la IA contemporánea.
 
 
@@ -81,6 +85,7 @@ A lo largo de la historia, se ha avanzado desde la creencia de que la mente esta
 4. **Comparación con Computadores:**
    - Se destaca la diferencia entre cerebros y computadores digitales, resaltando que hay 1.000 veces más neuronas en un cerebro humano que puertas lógicas en la CPU de un computador estándar.
    - Aunque la ley de Moore predice la igualación en el número de neuronas y puertas lógicas alrededor de 2020, se enfatiza que las capacidades de procesamiento y paralelismo del cerebro siguen siendo superiores.
+
 Es asombrosa la capacidad del cerebro para generar razonamiento, acción y conciencia. Tomando en cuenta la diferencia fundamental en las tareas realizadas por el cerebro y los computadores digitales.
 
 
@@ -111,17 +116,54 @@ Tomando el ejemplo de un agente aspiradora que limpia una cuadrícula si está s
 Si la medida de rendimiento premia con un punto por cada cuadrícula limpia en un período de tiempo específico a lo largo de 1,000 períodos, y el entorno se conoce a priori con ciertas restricciones, entonces el agente es racional. 
 Sin embargo, en diferentes circunstancias, como cuando toda la suciedad se ha eliminado y la medida de rendimiento penaliza los movimientos innecesarios, el agente puede volverse irracional. Se exploran casos específicos y se diseñan agentes para abordar estas situaciones en ejercicios adicionales.
 
+En el contexto de la racionalidad, es crucial distinguir entre racionalidad y omnisciencia. La omnisciencia implica conocer el resultado real de las acciones, lo cual es imposible en la realidad. 
+Un ejemplo ilustrativo es el acto de cruzar una calle basado en la información disponible, aunque desconociendo eventos futuros.
+Racionalidad no implica perfección, ya que se centra en maximizar el rendimiento esperado, no el resultado real. La definición de racionalidad propuesta no requiere omnisciencia; la elección racional se basa en la secuencia de percepciones hasta la fecha.
+La recopilación de información y el aprendizaje son componentes esenciales de la racionalidad. Se aborda el concepto de autonomía, indicando que un agente racional debe ser capaz de aprender y ajustarse a su entorno, siendo autónomo en la toma de decisiones.
+La autonomía completa puede no ser necesaria desde el principio, pero a medida que el agente acumula experiencia, su comportamiento se vuelve independiente del conocimiento inicial proporcionado por el diseñador. La incorporación del aprendizaje facilita el diseño de agentes racionales que pueden tener éxito en diversos entornos.
 
+Las propiedades de los entornos de trabajo en inteligencia artificial pueden ser clasificadas en diversas dimensiones, lo que influye en el diseño y la implementación de los agentes. Estas dimensiones incluyen:
 
+1. **Totalmente observable vs. parcialmente observable:**
+   - Totalmente observable: El agente tiene acceso al estado completo del entorno en cada momento.
+   - Parcialmente observable: El agente no tiene acceso completo al estado del entorno debido a ruido, sensores poco precisos, o limitaciones en la información recibida.
 
+2. **Determinista vs. estocástico:**
+   - Determinista: El siguiente estado del entorno está completamente determinado por el estado actual y las acciones del agente.
+   - Estocástico: El siguiente estado tiene cierta incertidumbre, incluso si el entorno es observable y determinista.
 
+3. **Episódico vs. secuencial:**
+   - Episódico: La experiencia del agente se divide en episodios atómicos, donde cada episodio consiste en percepción y acción independientes de episodios anteriores.
+   - Secuencial: Las decisiones actuales del agente afectan las decisiones futuras; las acciones están vinculadas a través del tiempo.
 
+4. **Estático vs. dinámico:**
+   - Estático: El entorno no cambia mientras el agente está tomando decisiones.
+   - Dinámico: El entorno puede cambiar mientras el agente está deliberando sobre acciones.
 
+5. **Discreto vs. continuo:**
+   - Discreto: El entorno tiene un conjunto finito de estados distintos, percepciones y acciones.
+   - Continuo: El entorno tiene estados, percepciones o acciones que pueden tomar valores en rangos continuos.
+
+6. **Agente individual vs. multiagente:**
+   - Agente individual: Un solo agente interactúa con el entorno.
+   - Multiagente: Varios agentes pueden interactuar, ya sea de manera cooperativa o competitiva.
+
+Los entornos reales a menudo son complejos y pueden tener propiedades de varias dimensiones, lo que hace que el diseño de agentes sea un desafío. La evaluación y experimentación en entornos simulados son esenciales para comprender el rendimiento de los agentes en contextos específicos.
 
 
 **Capítulo 26: Aprendizaje Automático**
-- Resumen del capítulo: Resume los conceptos de aprendizaje automático presentados por Russell.
-- Análisis crítico: Evalúa la importancia y aplicaciones del aprendizaje automático en la IA moderna.
+
+
+
+
+
+
+
+
+
+
+
+
 
 **Capítulo 27: Aprendizaje Profundo**
 - Resumen del capítulo: Describe los principios del aprendizaje profundo según el autor.
