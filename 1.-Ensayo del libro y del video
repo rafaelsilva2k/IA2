@@ -26,12 +26,42 @@ Existe un enfrentamiento entre los enfoques centrados en los humanos y aquellos 
 Ambos enfoques han interactuado, a veces ayudándose mutuamente y otras veces ignorándose.
 Se proporcionan ejemplos de definiciones de inteligencia artificial de diferentes autores y se destaca la diversidad de perspectivas en el campo, desde la automatización de actividades vinculadas con procesos de pensamiento humano hasta el estudio de las facultades mentales mediante el uso de modelos computacionales. 
 
+Al igual se aborda el enfoque de la Prueba de Turing en el comportamiento humano como una medida operativa de la inteligencia artificial propuesta por Alan Turing en 1950. 
+La prueba busca determinar la capacidad de un computador para imitar respuestas humanas al punto de que un evaluador no pueda distinguir entre las respuestas de una máquina y las de una persona. 
+Para superar la prueba, se requiere que el computador posea habilidades en procesamiento de lenguaje natural, representación del conocimiento, razonamiento automático y aprendizaje automático.
+La Prueba de Turing evita deliberadamente la interacción física directa y se centra en la capacidad de simular inteligencia. Se menciona la Prueba Global de Turing, que incluye elementos de percepción visual y manipulación física para evaluar aún más la inteligencia de la máquina. 
+Se destaca que estas disciplinas, junto con las mencionadas anteriormente, abarcan gran parte del campo de la inteligencia artificial.
+Se reconoce la relevancia continua de la Prueba de Turing después de 50 años, aunque los investigadores en inteligencia artificial han dedicado poco esfuerzo a evaluar sistemas con esta prueba, enfocándose más en los principios subyacentes de la inteligencia. 
+La analogía se establece con la aviación, donde el éxito llegó al comprender los principios de la aerodinámica en lugar de imitar directamente a las aves. 
+Se concluye que la búsqueda de la inteligencia artificial debe centrarse en comprender los principios en lugar de duplicar comportamientos específicos.
 
+Se proporciona una breve historia de las disciplinas que han contribuido al desarrollo de la IA. La revisión histórica se organiza alrededor de preguntas filosóficas clave, sin pretender abarcar todas las preocupaciones de las disciplinas involucradas. 
+Se destaca la importancia de avanzar en la IA como objetivo final de estas disciplinas. Se mencionan varias cuestiones filosóficas, desde el uso de reglas formales para extraer conclusiones válidas hasta la relación entre conocimiento y acción. 
+Aristóteles, Leonardo da Vinci, y Thomas Hobbes son referenciados en el contexto de la historia del pensamiento relacionado con la inteligencia. 
+Se aborda la distinción entre mente y materia, el dualismo versus materialismo, y la relación entre conocimiento y acción.
+Se destaca la importancia del conocimiento empírico y se mencionan figuras como Francis Bacon, John Locke, y David Hume. Se explora el positivismo lógico, liderado por el Círculo de Viena, y se menciona la teoría de la confirmación de Carnap y Hempel como una de las primeras en representar la mente como un proceso computacional.
+La relación entre conocimiento y acción se discute a través de la perspectiva de Aristóteles, y se señala la implementación posterior del algoritmo aristotélico por Newell y Simon en el contexto de la planificación regresiva. 
+Además, se mencionan enfoques cuantitativos para la toma de decisiones propuestos por Antoine Arnauld y la idea del utilitarismo de John Stuart Mill.
 
+Es importante abordar el papel de las matemáticas en el desarrollo de la inteligencia artificial, centrándonos en tres áreas fundamentales: lógica, computación y probabilidad.
+1. **Lógica y Computación:**
+   - La lógica formal se originó en la antigua Grecia, pero George Boole (1815-1864) y Gottlob Frege (1848-1925) contribuyeron al desarrollo matemático de la lógica proposicional y de primer orden.
+   - David Hilbert (1862-1943) planteó el problema de decisión en 1900, preguntando si existe un algoritmo para determinar la validez de cualquier proposición lógica.
+   - Kurt Gödel (1906-1978) demostró en 1931 los límites de la lógica de primer orden con su teorema de incompletitud, indicando la existencia de afirmaciones verdaderas no decidibles por algoritmos.
+   - Alan Turing (1912-1954) contribuyó con la máquina de Turing y la tesis de Church-Turing, estableciendo la capacidad de una máquina para calcular cualquier función computable.
+   - Se destacan conceptos como la no decidibilidad, computabilidad y la complejidad de problemas, especialmente con la introducción de la NP-completitud por Cook y Karp en la década de 1970.
 
+2. **Problemas Intratables y Teoría de la NP-Completitud:**
+   - Se discute la intratabilidad de problemas cuyo tiempo de resolución crece exponencialmente con el tamaño de los casos.
+   - La teoría de la NP-completitud, propuesta por Cook y Karp, ofrece un método para reconocer problemas intratables.
+   - A pesar del aumento en la velocidad de los computadores, la resolución eficiente de problemas intratables sigue siendo un desafío clave en la IA.
 
+3. **Teoría de la Probabilidad:**
+   - Gerolamo Cardano (1501-1576) introduce la probabilidad en el contexto de juegos de apuesta.
+   - La probabilidad se convierte en una herramienta esencial en ciencias cuantitativas, tratando mediciones con incertidumbre.
+   - Thomas Bayes (1702-1761) propone la regla de Bayes para actualizar probabilidades subjetivas a la luz de nuevas evidencias, sentando las bases para el análisis bayesiano en la IA moderna.
 
-
+La sección subraya la importancia de estas áreas matemáticas en la construcción de la inteligencia artificial y destaca cómo los límites y desafíos planteados en la lógica y la teoría de la computación han influido en la formulación de problemas y enfoques en la IA contemporánea.
 
 
 
