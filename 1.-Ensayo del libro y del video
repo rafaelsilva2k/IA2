@@ -252,9 +252,19 @@ El análisis asintótico es un enfoque para evaluar algoritmos independientement
 El análisis asintótico proporciona una herramienta eficaz para comparar algoritmos y se basa en medidas como el peor caso (Tpeor(n)) o el caso promedio (Tprom(n)). La notación O( ) facilita la comparación de algoritmos sin preocuparse por factores constantes, lo que lo convierte en una herramienta ampliamente utilizada en el análisis de algoritmos.
 El análisis de complejidad se centra en problemas más que en algoritmos, dividiéndolos en dos clases principales: P (problemas que pueden resolverse en tiempo polinómico) y NP (problemas polinomiales no deterministas). La pregunta clave es si P es igual a NP, lo que sigue siendo un problema no resuelto. La clase NP incluye problemas fáciles de verificar, pero no necesariamente fáciles de resolver. 
 NP-completos son los problemas más difíciles de NP, y la pregunta abierta es si todos los problemas NP-completos están en P. Además, se mencionan las clases co-NP (el complemento de NP) y #P (problemas de cómputo correspondientes a problemas de decisión en NP). También se discute la clase PSPACE, que incluye problemas que requieren espacio polinómico y podría ser más difícil que NP-completo. La relación exacta entre estas clases sigue siendo un área activa de investigación.
+En matemáticas, un vector se define como un miembro de un espacio vectorial, pero para propósitos prácticos, un vector es una secuencia ordenada de valores. Se denotan comúnmente con caracteres en negrita, como x o y, y los elementos se acceden mediante subíndices, por ejemplo, ( z = (Z1, Z2, ..., Zn) ). Las operaciones fundamentales en vectores son la suma y la multiplicación escalar. 
+La suma de vectores se realiza elemento a elemento, y la multiplicación escalar implica multiplicar cada elemento por una constante. La longitud de un vector (||X||) se calcula como la raíz cuadrada de la suma de los cuadrados de sus elementos. El producto escalar de dos vectores (x * y) es la suma de los productos de los elementos correspondientes.
+Si hablamos sobre la distribucion de probabilidades. Una probabilidad es una medida sobre un conjunto de eventos que satisface tres axiomas:
+![ejemplos](/Users/rafaelfabiansilva/Desktop/Desktop/School!/IA2/Ejemplos.png)
+
+![](/Users/rafaelfabiansilva/Desktop/Desktop/School!/IA2/1.png)
+![](/Users/rafaelfabiansilva/Desktop/Desktop/School!/IA2/2.png)
 
 
-
+**Conclusiones:**
+- Recapitula los puntos clave de cada capítulo y el apartado A.
+- Ofrece una evaluación general del enfoque de Russell en la inteligencia artificial.
+- Proporciona tu opinión sobre la eficacia de los conceptos presentados y su aplicabilidad en el campo actual.
 
 
 En conclusión, se reconoce el progreso de la IA, pero se enfatiza que aún queda mucho por hacer y que es esencial considerar las implicaciones éticas a medida que avanza la investigación en este campo.
@@ -265,15 +275,4 @@ En conclusión, se reconoce el progreso de la IA, pero se enfatiza que aún qued
 
 
 
-
-
-
-
-**Conclusiones:**
-- Recapitula los puntos clave de cada capítulo y el apartado A.
-- Ofrece una evaluación general del enfoque de Russell en la inteligencia artificial.
-- Proporciona tu opinión sobre la eficacia de los conceptos presentados y su aplicabilidad en el campo actual.
-
-**Bibliografía:**
-- Incluye todas las referencias al libro "Inteligencia Artificial: Un Enfoque Moderno" de Stuart J. Russell.
 
