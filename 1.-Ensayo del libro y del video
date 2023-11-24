@@ -6,13 +6,26 @@
 **"Inteligencia Artificial: Un Enfoque Moderno" de Stuart J. Russell**
 
 **Introducción:**
-- Presenta el libro y su autor, Stuart J. Russell.
-- Proporciona una breve descripción del contenido de los capítulos 1, 2, 26 y 27, así como del apartado A.
-- Establece el propósito de tu ensayo: analizar y evaluar los conceptos clave presentados en estos capítulos.
+Se hara un ensayo sobre la Inteligencia Artificial un Enfoque Moderno. Libro realizado por Stuart J. Russell.
+La IA es una de las ciencias más recientes. El trabajo comenzó poco después de la Segunda Guerra Mundial, y el nombre se acuñó en 1956. 
+La IA se cita, junto a la biología molecular, como un campo en el que a la mayoría de científicos de otras disciplinas les gustaría trabajar.
+Un estudiante de ciencias físicas puede pensar razonablemente que todas las buenas ideas han sido ya propuestas por Galileo, Newton, Einstein y otros. 
+Por el contrario, la IA aún tiene flecos sin cerrar en los que podrían trabajar varios Einsteins a tiempo completo.
+La IA abarca en la actualidad una gran variedad de subcampos, que van desde áreas de propósito general, como el aprendizaje y la percepción, a otras más específicas como el ajedrez, la demostración de teoremas matemáticos, la escritura de poesía y el diagnóstico de enfermedades.
+La IA sintetiza y automatiza tareas intelectuales y es, por lo tanto, potencialmente relevante para cualquier ámbito de la actividad intelectual humana. 
+En este sentido, es un campo genuinamente universal. El objetivo de este ensayo es analizar y evaluar los conceptos clave presentados en dichos capítulos de este extenso libro sobre la IA.
 
 **Desarrollo:**
 
 **Capítulo 1: Introducción a la Inteligencia Artificial**
+En el texto proporcionado, se aborda el tema de la inteligencia artificial (IA) y se destacan diferentes enfoques y definiciones relacionadas con este campo. 
+Se presentan ocho definiciones de inteligencia artificial, divididas en dos grupos: aquellas que se centran en procesos mentales y razonamiento, y aquellas que se refieren a la conducta. 
+Además, se establece una distinción entre medir el éxito en términos de fidelidad a la forma de actuar de los humanos y referirse a un concepto ideal de inteligencia llamado racionalidad, donde un sistema es considerado racional si realiza acciones "correctas" según su conocimiento.
+
+Se menciona que a lo largo de la historia se han seguido cuatro enfoques en inteligencia artificial: sistemas que piensan como humanos, sistemas que piensan racionalmente, sistemas que actúan como humanos y sistemas que actúan racionalmente. Existe un enfrentamiento entre los enfoques centrados en los humanos y aquellos centrados en la racionalidad. El enfoque centrado en el comportamiento humano se considera una ciencia empírica, mientras que el enfoque racional implica una combinación de matemáticas e ingeniería. Ambos enfoques han interactuado, a veces ayudándose mutuamente y otras veces ignorándose.
+
+Se proporcionan ejemplos de definiciones de inteligencia artificial de diferentes autores y se destaca la diversidad de perspectivas en el campo, desde la automatización de actividades vinculadas con procesos de pensamiento humano hasta el estudio de las facultades mentales mediante el uso de modelos computacionales. El texto anticipa una revisión más detallada de cada uno de los cuatro enfoques mencionados.
+
 - Resumen del capítulo: Describe los conceptos fundamentales presentados por Russell en el primer capítulo.
 - Análisis crítico: Evalúa la efectividad de la introducción del autor para comprender la IA desde un enfoque moderno.
 
