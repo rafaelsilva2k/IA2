@@ -60,8 +60,30 @@ Es importante abordar el papel de las matemáticas en el desarrollo de la inteli
    - Gerolamo Cardano (1501-1576) introduce la probabilidad en el contexto de juegos de apuesta.
    - La probabilidad se convierte en una herramienta esencial en ciencias cuantitativas, tratando mediciones con incertidumbre.
    - Thomas Bayes (1702-1761) propone la regla de Bayes para actualizar probabilidades subjetivas a la luz de nuevas evidencias, sentando las bases para el análisis bayesiano en la IA moderna.
+Es de suma importancia destacar cómo los límites y desafíos planteados en la lógica y la teoría de la computación han influido en la formulación de problemas y enfoques en la IA contemporánea.
 
-La sección subraya la importancia de estas áreas matemáticas en la construcción de la inteligencia artificial y destaca cómo los límites y desafíos planteados en la lógica y la teoría de la computación han influido en la formulación de problemas y enfoques en la IA contemporánea.
+
+La neurociencia, que abarca desde 1861 hasta el presente, se centra en comprender cómo procesa información el cerebro. 
+A lo largo de la historia, se ha avanzado desde la creencia de que la mente estaba en el corazón hacia la aceptación de que el cerebro es la base de la conciencia.
+1. **Descubrimientos Iniciales:**
+   - Paul Broca (1824-1880) contribuyó al campo al estudiar la afasia en pacientes con daño cerebral en 1861, identificando el área de Broca en el hemisferio izquierdo como responsable del habla.
+   - Camillo Golgi (1843-1926) desarrolló una técnica de coloración neuronal en 1873, permitiendo la observación de neuronas individuales.
+   - Santiago Ramón y Cajal (1852-1934) utilizó esta técnica en sus estudios pioneros sobre la estructura neuronal.
+
+2. **Avances Tecnológicos:**
+   - En 1929, Hans Berger descubrió el electroencefalograma (EEG), permitiendo estudios sobre la actividad cerebral en individuos intactos.
+   - Las imágenes de resonancia magnética funcional (IRMF) desde 1990 proporcionan imágenes detalladas de la actividad cerebral, avanzando en la comprensión de procesos cognitivos.
+
+3. **Desafíos Actuales:**
+   - A pesar de los avances, persisten desafíos en comprender la relación entre las áreas cerebrales, la plasticidad cerebral, y el almacenamiento de recuerdos individuales.
+   - La complejidad del cerebro, que genera pensamiento, acción y conciencia, sigue siendo un misterio científico.
+
+4. **Comparación con Computadores:**
+   - Se destaca la diferencia entre cerebros y computadores digitales, resaltando que hay 1.000 veces más neuronas en un cerebro humano que puertas lógicas en la CPU de un computador estándar.
+   - Aunque la ley de Moore predice la igualación en el número de neuronas y puertas lógicas alrededor de 2020, se enfatiza que las capacidades de procesamiento y paralelismo del cerebro siguen siendo superiores.
+Es asombrosa la capacidad del cerebro para generar razonamiento, acción y conciencia. Tomando en cuenta la diferencia fundamental en las tareas realizadas por el cerebro y los computadores digitales.
+
+
 
 
 
@@ -91,4 +113,3 @@ La sección subraya la importancia de estas áreas matemáticas en la construcci
 **Bibliografía:**
 - Incluye todas las referencias al libro "Inteligencia Artificial: Un Enfoque Moderno" de Stuart J. Russell.
 
-Recuerda ajustar la estructura según tus necesidades y los detalles específicos de los capítulos mencionados.
