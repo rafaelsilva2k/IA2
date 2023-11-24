@@ -84,14 +84,40 @@ A lo largo de la historia, se ha avanzado desde la creencia de que la mente esta
 Es asombrosa la capacidad del cerebro para generar razonamiento, acción y conciencia. Tomando en cuenta la diferencia fundamental en las tareas realizadas por el cerebro y los computadores digitales.
 
 
+En 1957, B. F. Skinner publicó "Verbal Behavior", una obra conductista sobre el aprendizaje del lenguaje. Sin embargo, Noam Chomsky criticó esta perspectiva en su revisión, señalando la incapacidad del conductismo para explicar la creatividad del lenguaje. 
+Chomsky propuso una teoría basada en modelos sintácticos que abordaba esta limitación y permitía su programación. La lingüística moderna y la inteligencia artificial (IA) evolucionaron juntas en un campo híbrido llamado lingüística computacional o procesamiento del lenguaje natural. 
+Aunque inicialmente se subestimó la complejidad del entendimiento del lenguaje, se reconoció que va más allá de la estructura de las oraciones, involucrando la comprensión del contexto y la materia bajo estudio.
+En los años 60, la investigación en representación del conocimiento, especialmente en relación con el lenguaje y la búsqueda de información, estuvo influenciada por décadas de análisis filosófico del lenguaje.
+La lingüística y la inteligencia artificial se entrelazaron, dando lugar a avances significativos en la comprensión y procesamiento del lenguaje.
+
+En 1956, John McCarthy, junto a Marvin Minsky, Claude Shannon, y Nathaniel Rochester, organizó un taller en Dartmouth College, considerado el nacimiento oficial de la Inteligencia Artificial (IA). 
+Aunque el taller no produjo avances notables, reunió a figuras importantes en el campo. Allen Newell y Herbert Simon del Carnegie Tech presentaron un programa llamado Teórico Lógico, capaz de razonamiento no numérico.
+Después del taller, Newell y Simon desarrollaron un programa que demostraba teoremas matemáticos de Principia Matemática de Russell y Whitehead. 
+Aunque el programa generó interés, el Journal of Symbolic Logic rechazó su artículo. A pesar de la falta de avances inmediatos, el taller estableció el término "Inteligencia Artificial" propuesto por McCarthy y conectó a las figuras clave del campo.
+La IA se destacó por su objetivo de duplicar facultades humanas como la creatividad y el uso del lenguaje, a diferencia de otros campos como la teoría de control o la investigación operativa. 
+La IA se consolidó como una rama de la informática, persiguiendo la construcción de máquinas para operar automáticamente en entornos complejos y cambiantes.
+
+
+
+**Capítulo 2: Agentes Inteligentes**
+Un agente es cualquier cosa capaz de percibir su medioambiente con la ayuda de sensores y actuar en ese medio utilizando actuadores.
+En el contexto de agentes, ya sean humanos o robots, la percepción se refiere a la capacidad del agente para recibir entradas en cualquier momento. La secuencia de percepciones de un agente representa su historial completo de entradas recibidas. 
+Se asume que cada agente puede percibir sus propias acciones, aunque no siempre sus efectos. La toma de decisiones de un agente en un momento dado depende de toda la secuencia de percepciones hasta ese instante.
+La función del agente describe matemáticamente su comportamiento, proyectando percepciones en acciones. La función del agente es una descripción abstracta, mientras que el programa del agente es una implementación concreta que se ejecuta en la arquitectura del agente.
+Se utiliza un ejemplo simple, el mundo de la aspiradora, para ilustrar estos conceptos. En este mundo, la aspiradora tiene dos ubicaciones y puede percibir la presencia de suciedad en cada ubicación.Una función de agente simple podría ser aspirar si la ubicación está sucia, de lo contrario, cambiar de ubicación.
+La racionalidad de un agente en un momento dado se basa en cuatro factores: la medida de rendimiento que define el éxito, el conocimiento acumulado del entorno, las acciones disponibles para el agente y la secuencia de percepciones hasta el momento.
+Un agente racional toma la acción que maximiza su medida de rendimiento, considerando la evidencia de la secuencia de percepciones y el conocimiento almacenado.
+Tomando el ejemplo de un agente aspiradora que limpia una cuadrícula si está sucia y se mueve a la otra si no lo está, su racionalidad depende del contexto.
+Si la medida de rendimiento premia con un punto por cada cuadrícula limpia en un período de tiempo específico a lo largo de 1,000 períodos, y el entorno se conoce a priori con ciertas restricciones, entonces el agente es racional. 
+Sin embargo, en diferentes circunstancias, como cuando toda la suciedad se ha eliminado y la medida de rendimiento penaliza los movimientos innecesarios, el agente puede volverse irracional. Se exploran casos específicos y se diseñan agentes para abordar estas situaciones en ejercicios adicionales.
 
 
 
 
 
-**Capítulo 2: Solucionando Problemas mediante la Búsqueda**
-- Resumen del capítulo: Explica las estrategias de búsqueda introducidas por Russell.
-- Análisis crítico: Examina la relevancia de estas estrategias en la resolución de problemas en la inteligencia artificial actual.
+
+
+
 
 **Capítulo 26: Aprendizaje Automático**
 - Resumen del capítulo: Resume los conceptos de aprendizaje automático presentados por Russell.
