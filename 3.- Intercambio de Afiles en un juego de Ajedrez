@@ -1,1 +1,31 @@
 ## 3.- Introducción a la Inteligencia Artificial: Introspección
+
+
+**Estrategias Óptimas para el Intercambio de Alfiles en un Juego de Ajedrez Reducido (de 4x5)**
+#### Introducción:
+
+El ajedrez, es un juego milenario que ha desafiado mentes y estrategias a lo largo de la historia, nos presenta constantemente situaciones intrigantes que ponen a prueba nuestra capacidad de pensar de manera lógica y estratégica. Un problema particularmente interesante, es el que nos dejo el profesor de Inteligencia Artificial, el cual es el siguiente: 
+
+colocar ocho alfiles en un tablero de ajedrez reducido y lograr que los alfiles negros intercambien sus posiciones con los blancos, sin que ningún alfil ataque a otro del color opuesto. Además, se nos impone la restricción de alternar los movimientos entre alfiles blancos y negros. La pregunta que surge de manera natural es: ¿Cuál es el mínimo número de movimientos en que se puede lograr este intrigante intercambio?
+
+#### Desarrollo:
+
+Este problema/ejercicio, pareceria simple, pero en realidad esconde una complejidad estratégica que requiere un análisis cuidadoso de las posiciones y movimientos de cada alfil en el tablero. A medida que exploramos esta problemática, nos adentraremos en un fascinante mundo de combinaciones y tácticas que revelarán la elegancia y la profundidad de este juego.
+
+Antes de abordar la resolución del problema, es importante entender lo basico sobre esto, las reglas y movimientos específicos de los alfiles en el ajedrez. Los alfiles se mueven en diagonal a través del tablero, y su capacidad para desplazarse libremente en estas direcciones los convierte en piezas poderosas para controlar diagonales y ejercer influencia sobre el tablero. Sin embargo, esta misma habilidad también puede convertirse en un obstáculo al intentar eludir a las piezas del color opuesto.
+
+Para resolver este problema, basicamente inicie colocando cuatro alfiles blancos y cuatro alfiles negros en posiciones específicas. A partir de esta configuración inicial, el reto consiste en encontrar la secuencia de movimientos que permita a los alfiles negros y blancos intercambiar sus lugares sin amenazarse mutuamente. La clave para resolver este enigma radica en la comprensión de cómo los alfiles pueden moverse y cómo sus movimientos pueden ser coordinados de manera eficiente.
+
+Una estrategia viable podría ser organizar los alfiles en dos grupos separados, uno blanco y otro negro, y luego buscar oportunidades para avanzar hacia el territorio enemigo sin que se produzcan amenazas. Es esencial realizar movimientos alternos, blanco-negro-blanco-negro etc, para garantizar que ningún alfil quede expuesto a un ataque del color opuesto.
+
+La resolución óptima de este problema implica una combinación de anticipación, paciencia y astucia. Cada movimiento debe ser cuidadosamente calculado, considerando las posiciones actuales y futuras de cada alfil en el tablero. En este proceso, la capacidad de prever las consecuencias de cada jugada se convierte en un elemento con suma importancia para evitar situaciones comprometedoras.
+
+En términos prácticos, el uso de técnicas como el bloqueo y la cobertura mutua entre los alfiles puede ser fundamental. Al bloquear diagonalmente a los alfiles del color opuesto, se crea un escenario en el que las piezas pueden avanzar sin riesgo de ser capturadas. Esta táctica, combinada con movimientos precisos y coordinados, allana el camino para que los alfiles negros y blancos intercambien sus posiciones de manera eficiente.
+
+A continuación la solución a la cual se llego: 
+![Foto solucion](/Users/rafaelfabiansilva/Desktop/Desktop/School!/IA2/Cuadro Resuelto.jpeg)
+
+
+####Conclusión:
+
+En conclusión, resolver el desafío de intercambiar las posiciones de ocho alfiles en un tablero de ajedrez reducido (el que yo decidi hacerlo de 4X5)implica una combinación de estrategia, táctica y paciencia. El mínimo número de movimientos necesario para lograr este objetivo dependerá de la habilidad y la visión del jugador para anticipar y evitar posiciones amenazantes. Este problema no solo pone a prueba nuestras habilidades en el juego de ajedrez, sino que también destaca la elegancia y la complejidad inherentes a este antiguo pasatiempo. Así, al abordar este rompecabezas, no solo desarrollamos nuestras habilidades en el juego, sino que también profundizamos nuestra comprensión de las sutilezas estratégicas que hacen del ajedrez un desafío intemporal y fascinante. La verdad que para llegar a esta  solución fue cuestion de prueba y error y comprender la logica de dicho juego.
