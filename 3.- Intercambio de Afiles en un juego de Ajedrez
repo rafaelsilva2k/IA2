@@ -22,10 +22,73 @@ La resolución óptima de este problema implica una combinación de anticipació
 
 En términos prácticos, el uso de técnicas como el bloqueo y la cobertura mutua entre los alfiles puede ser fundamental. Al bloquear diagonalmente a los alfiles del color opuesto, se crea un escenario en el que las piezas pueden avanzar sin riesgo de ser capturadas. Esta táctica, combinada con movimientos precisos y coordinados, allana el camino para que los alfiles negros y blancos intercambien sus posiciones de manera eficiente.
 
-A continuación la solución a la cual se llego: 
-![Foto solucion](/Users/rafaelfabiansilva/Desktop/Desktop/School!/IA2/Cuadro Resuelto.jpeg)
+#A continuación la solución a la cual se llego: 
+
+El número mínimo de movimientos para llegar a la solución esperada es de 18 movimientos, 
+los cuales son los siguientes:
+
+1. (18-15)(3-6)	
+						
+2. (17-8)(4-13)
+
+3. (19-14)(2-7)
+
+4. (15-5)(6-16)
+
+5. (8-3)(13-18)
+
+6. (14-9)(7-12)
+
+7. (5-10)(16-11)
+
+8. (9-19)(12-2)
+
+9. (10-4)(11-7)
+
+10. (20-10)(1-11)	
+
+11. (3-9)(18-12)
+
+12. (10-13)(11-8)
+
+13. (19-16)(2-5)
+
+14. (16-1)(5-20)
+
+15. (9-6)(12-15)
+
+16. (13-7)(8-14)
+
+17. (6-3)(15-18)
+
+18. (7-2)(14-19)
+
+Este cuadro enumerado nos ayuda para saber los movimientos que se van realizando.
+
+![](/Users/rafaelfabiansilva/Desktop/Desktop/School!/IA2/Numeracion de cuadro.png)
+
+#Mi solución:
+Mi solución fue que básicamente realice 25 movimientos/veces los alfiles, alternando los 
+movimientos entre cada color.
+
+A continuación, mostrare las imágenes de cómo fui haciendo los movimientos. Cada imagen 
+cuenta con un número que identifica los números de movimientos que van hechos hasta esa 
+imagen.
+
+
+![Foto solucion](/Users/rafaelfabiansilva/Desktop/Desktop/School!/IA2/Movimientos 1.png)
+![Foto solucion](/Users/rafaelfabiansilva/Desktop/Desktop/School!/IA2/Movimientos 2.png)
+![Foto solucion](/Users/rafaelfabiansilva/Desktop/Desktop/School!/IA2/Movimientos 3.png)
+![Foto solucion](/Users/rafaelfabiansilva/Desktop/Desktop/School!/IA2/Movimientos 4.png)
+
+En la última imagen que agregue, se pueden observar los últimos dos movimientos, en los 
+cuales dejan a todas las fichas del lado contrario al que empezaron, y así mismo dejamos por 
+terminado el ejercicio.
+
 
 
 ####Conclusión:
 
-En conclusión, resolver el desafío de intercambiar las posiciones de ocho alfiles en un tablero de ajedrez reducido (en mi caso, decidi hacerlo de 4X5)implica una combinación de estrategia, táctica y paciencia. El mínimo número de movimientos necesario para lograr este objetivo dependerá de la habilidad y la visión del jugador para anticipar y evitar posiciones amenazantes. Este problema no solo pone a prueba nuestras habilidades en el juego de ajedrez, sino que también destaca la elegancia y la complejidad inherentes a este antiguo pasatiempo. Así, al abordar este rompecabezas, no solo desarrollamos nuestras habilidades en el juego, sino que también profundizamos nuestra comprensión de las sutilezas estratégicas que hacen del ajedrez un desafío intemporal y fascinante. La verdad que para llegar a esta  solución fue cuestion de prueba y error y comprender la logica de dicho juego.
+En conclusión, resolver el desafío de intercambiar las posiciones de ocho alfiles en un tablero de ajedrez reducido (en mi caso, decidi hacerlo de 4X5) implica una combinación de estrategia, táctica y paciencia. 
+El mínimo número de movimientos necesario para lograr este objetivo dependerá de la habilidad y la visión del jugador para anticipar y evitar posiciones amenazantes. Este problema no solo pone a prueba nuestras habilidades en el juego de ajedrez, sino que también destaca la elegancia y la complejidad inherentes a este antiguo pasatiempo. 
+Así, al abordar este rompecabezas, no solo desarrollamos nuestras habilidades en el juego, sino que también profundizamos nuestra comprensión de las sutilezas estratégicas que hacen del ajedrez un desafío intemporal y fascinante. La verdad que para llegar a esta  solución fue cuestion de prueba y error y comprender la logica de dicho juego.
