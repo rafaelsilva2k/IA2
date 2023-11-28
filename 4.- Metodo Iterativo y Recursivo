@@ -1,1 +1,96 @@
-## 4.- Introducción a la Inteligencia Artificial: Introspección
+# 4.- Introducción a la Inteligencia Artificial: Introspección
+
+
+**Título: Explorando Métodos Iterativos y Recursivos para Contar Islas en una Imagen**
+
+**Introducción:**
+
+El conteo de elementos en una imagen, en particular el número de islas del mismo color, es un desafío común en el campo de procesamiento de imágenes. En este ensayo, exploraremos dos enfoques para abordar este problema: métodos iterativos y recursivos. La tarea se vuelve más intrigante cuando consideramos una matriz de 14x22, que representa una imagen pixelada. A través de la implementación de estos métodos, descubriremos las ventajas y desventajas de cada enfoque, así como su aplicabilidad en la resolución de problemas relacionados con el procesamiento de imágenes.
+
+**Desarrollo:**
+
+*1. Métodos Iterativos:*
+
+En el contexto del conteo de islas en una imagen, el método iterativo se presenta como una solución eficiente y directa. La función principal de este método es recorrer la matriz pixel por pixel, identificando cada isla del mismo color y marcándola como visitada. El algoritmo utiliza una cola para gestionar el orden de visita de los píxeles, asegurando que se exploren todos los elementos conectados a una isla antes de pasar a la siguiente.
+
+El algoritmo iterativo se beneficia de la estructura de la cola, ya que garantiza que los píxeles se procesen en el orden correcto, evitando repeticiones y asegurando una ejecución eficiente. La función `visitar_isla_iterativo` se encarga de explorar todos los píxeles de una isla específica, expandiéndose de manera iterativa a través de los píxeles adyacentes. Este enfoque lineal y secuencial demuestra ser efectivo para el conteo de islas en una imagen de tamaño moderado, como la matriz de 14x22.
+
+*2. Métodos Recursivos:*
+
+Contrastando con la naturaleza iterativa, los métodos recursivos ofrecen una perspectiva diferente para abordar el problema. La función `contar_islas_recursivo` inicia el proceso, identificando píxeles de inicio para cada isla. Cuando encuentra un píxel perteneciente a una isla no visitada, invoca la función `visitar_isla_recursivo`, que se encarga de expandir la búsqueda recursivamente a través de los píxeles adyacentes.
+
+La elegancia del enfoque recursivo radica en su simplicidad conceptual y la capacidad de reflejar de manera directa la estructura de los problemas. Sin embargo, la recursión puede tener limitaciones en términos de consumo de memoria, especialmente en imágenes grandes con islas extensas. Además, es importante considerar la pila de llamadas y la posibilidad de desbordamiento, lo que puede afectar la eficiencia y la estabilidad del algoritmo.
+
+**Comparación y Aplicaciones Prácticas:**
+
+La elección entre métodos iterativos y recursivos depende en gran medida del contexto de la tarea y las características específicas de la imagen. Los métodos iterativos tienden a ser más eficientes en cuanto a memoria y menos propensos a desbordamientos de pila en situaciones de imágenes grandes. Por otro lado, los métodos recursivos ofrecen una implementación más clara y concisa, siendo preferibles en situaciones donde la estructura recursiva del problema es evidente.
+
+
+	def contar_islas_iterativo(imagen):
+     if not imagen or not imagen[0]:
+        return 0
+
+    filas, columnas = len(imagen), len(imagen[0])
+    visitado = [[False] * columnas for _ in range(filas)]
+    contador_islas = 0
+
+    for i in range(filas):
+        for j in range(columnas):
+            if imagen[i][j] == 1 and not visitado[i][j]:
+                contador_islas += 1
+                visitar_isla_iterativo(imagen, i, j, visitado)
+
+    return contador_islas
+
+	def visitar_isla_iterativo(imagen, i, j, visitado):
+    filas, columnas = len(imagen), len(imagen[0])
+    cola = [(i, j)]
+    visitado[i][j] = True
+
+    while cola:
+        x, y = cola.pop(0)
+
+        for dx, dy in [(1, 0), (-1, 0), (0, 1), (0, -1)]:
+            nx, ny = x + dx, y + dy
+            if 0 <= nx < filas and 0 <= ny < columnas and imagen[nx][ny] == 1 and not   visitado[nx][ny]:
+                 cola.append((nx, ny))
+                 visitado[nx][ny] = True
+                
+	def contar_islas_recursivo(imagen):
+     if not imagen or not imagen[0]:
+         return 0
+
+     filas, columnas = len(imagen), len(imagen[0])
+     visitado = [[False] * columnas for _ in range(filas)]
+     contador_islas = 0
+
+     for i in range(filas):
+         for j in range(columnas):
+             if imagen[i][j] == 1 and not visitado[i][j]:
+                 contador_islas += 1
+                 visitar_isla_recursivo(imagen, i, j, visitado)
+
+      return contador_islas
+
+	def visitar_isla_recursivo(imagen, i, j, visitado):
+     filas, columnas = len(imagen), len(imagen[0])
+     if 0 <= i < filas and 0 <= j < columnas and imagen[i][j] == 1 and not visitado[i][j]:
+         visitado[i][j] = True
+         for dx, dy in [(1, 0), (-1, 0), (0, 1), (0, -1)]:
+             visitar_isla_recursivo(imagen, i + dx, j + dy, visitado)
+
+# Ejemplo de uso con una matriz de 14x22
+
+	 matriz_ejemplo = [
+    [1, 0, 1, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 1, 0, 1, 0, 0, 1, 1, 1, 0],
+    [1, 1, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 1, 0, 1, 1, 0, 1, 1, 1, 0],
+    # ... (Otras filas de la matriz)] `
+    
+
+	print("Número de islas (iterativo):", contar_islas_iterativo(matriz_ejemplo))
+	print("Número de islas (recursivo):", contar_islas_recursivo(matriz_ejemplo))
+
+
+**Conclusión:**
+
+En este ensayo, se ha explorado dos enfoques fundamentales para contar islas en una imagen: métodos iterativos y recursivos. Ambos métodos tienen sus ventajas y desventajas, y la elección entre ellos depende de diversos factores, como el tamaño de la imagen, la complejidad de las islas y las limitaciones de memoria. Al entender y aplicar estos enfoques de manera efectiva, podemos abordar con éxito tareas de procesamiento de imágenes y extracción de información útil de datos visuales.
