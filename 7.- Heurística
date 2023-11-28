@@ -1,0 +1,45 @@
+## 7.- Introducción a la Inteligencia Artificial: El papel de la heurística
+
+# La Heuristica
+
+La heurística es una estrategia o enfoque práctico que se utiliza para abordar y resolver problemas complejos o difíciles. Es un conjunto de reglas o principios generales que se basan en la experiencia, el sentido común y el conocimiento previo para guiar la toma de decisiones y la resolución de problemas.
+
+El papel de la heurística en la resolución de problemas es proporcionar un marco o conjunto de pautas que ayudan a simplificar el proceso de toma de decisiones cuando se enfrenta a situaciones complejas o inciertas. Las heurísticas son útiles cuando no se dispone de información completa o cuando el tiempo y los recursos son limitados.
+
+Las heurísticas permiten reducir la complejidad de un problema dividiéndolo en partes más pequeñas y manejables. Proporcionan atajos mentales que permiten tomar decisiones rápidas y eficientes sin tener que examinar exhaustivamente todas las opciones disponibles.
+
+Aunque las heurísticas pueden ser útiles para tomar decisiones rápidas, también pueden llevar a sesgos y errores sistemáticos. Algunas heurísticas comunes incluyen la heurística de representatividad (basada en la similitud con prototipos o estereotipos), la heurística de disponibilidad (basada en la facilidad con la que se recuerdan ejemplos relevantes) y la heurística de anclaje y ajuste (basada en puntos de referencia iniciales).
+
+Es importante tener en cuenta que las heurísticas no garantizan una solución óptima en todos los casos, pero son herramientas útiles para la toma de decisiones y la resolución de problemas en situaciones complejas donde no hay una solución clara o evidente.   
+
+
+	matriz_laberinto = [[1, 1, 1, 1, 1, 1, 1, 1, 1],
+                   	  	[0, 0, 0, 0, 0, 0, 1, 0, 1],
+                      	[1, 1, 1, 0, 1, 1, 1, 0, 1],
+                      	[1, 0, 0, 0, 1, 0, 1, 0, 1],
+                      	[1, 0, 1, 1, 1, 0, 1, 0, 1],
+                      	[1, 0, 0, 0, 0, 0, 0, 0, 1],
+                      	[1, 0, 1, 1, 1, 0, 1, 0, 1],
+                      	[0, 0, 1, 0, 0, 0, 1, 0, 1],
+                      	[1, 1, 1, 1, 1, 1, 1, 1, 1], ]
+
+
+	def recorrer_laberinto(matriz, fila, columna):
+    # Valores correctos
+    if fila < 0 or fila >= len(matriz) or columna < 0 or columna >= len(matriz[0]):
+        return
+    # Elemento es 0 o 1
+    if matriz[fila][columna] == 0:
+        # Imprime posiciones con valor 0
+        print(f"Fila: {fila}, Columna: {columna}")
+        # Cambiar de valor para no tener errores
+        matriz[fila][columna] = -1
+        # Recorrer matriz recursivamente
+
+        recorrer_laberinto(matriz, fila + 1, columna)
+        recorrer_laberinto(matriz, fila - 1, columna)
+        recorrer_laberinto(matriz, fila, columna + 1)
+        recorrer_laberinto(matriz, fila, columna - 1)
+
+# Matriz
+	recorrer_laberinto(matriz_laberinto, 1, 0)
