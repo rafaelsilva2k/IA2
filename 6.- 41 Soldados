@@ -1,1 +1,46 @@
 ## 6.- Introducción a la Inteligencia Artificial: El proceso de razonamiento según la lógica
+
+Para comenzar a entender el problema, iniciamos considerandi el caso más simple con un número menor de soldados para entender la estrategia. Vamos a empezar con el caso de 2 soldados.
+
+**Caso con 2 soldados:**
+
+- El soldado 1 mata al soldado 2.
+- El soldado 1 es el único sobreviviente.
+
+**Caso con 3 soldados:**
+
+- El soldado 1 mata al soldado 2.
+- El soldado 3 mata al soldado 1.
+- El soldado 3 es el único sobreviviente.
+
+**Caso con 4 soldados:**
+
+- El soldado 1 mata al soldado 2.
+- El soldado 3 mata al soldado 4.
+- El soldado 1 mata al soldado 3.
+- El soldado 1 es el único sobreviviente.
+
+A partir de estos casos, parece que el patrón es que el sobreviviente siempre es el primer soldado si el número total de soldados es una potencia de 2.
+
+**Estrategia general:**
+
+1. Encuentra la potencia de 2 más cercana que sea menor o igual al número total de soldados.
+2. Encuentra el número original de soldados eliminando la potencia de 2 encontrada y duplicando el resultado.
+3. Suma 1 al resultado obtenido en el paso anterior.
+
+**Aplicación al caso de 41 soldados:**
+
+1. La potencia de 2 más cercana es 32.
+2. 41 - 32 = 9, y 9 * 2 = 18.
+3. 18 + 1 = 19.
+
+Entonces, Josephus se habría sentado en la posición 19. Si deseas verificar esto, puedes seguir el proceso de eliminación de soldados uno por uno hasta que quede el último.
+
+La fórmula general para el Problema de Josephus, que tiene una conexión más directa con la teoría de números y la representación binaria, es la siguiente:
+
+ J(n) = 2 x (n - 2^[log_2 n]) + 1
+
+Donde [log_2 n] representa la parte entera del logaritmo base 2 de (n). Esta fórmula proporciona la posición en la que Josephus debe sentarse para ser el último sobreviviente.
+
+Y pues basicamente se puede utilizar esta fórmula para calcular la posición de Josephus para cualquier número dado de soldados. Por ejemplo, para el caso específico de 41 soldados, puedes calcular J(41) para encontrar la posición en la que Josephus debe sentarse.
+
